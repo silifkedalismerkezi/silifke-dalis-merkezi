@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Silifke Dalış Merkezi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="5 yıldır eğitim, deneme dalışları ve yurtdışı turlarıyla yanınızdayız.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <div class="brand">Silifke <span>Dalış Merkezi</span></div>
+      <nav class="navlinks"><a href="/kurslar.html">Kurslar</a><a href="/galeri.html">Galeri</a><a href="#contact">İletişim</a></nav>
+      <div class="lang"><a class="active" href="/index.html">TR</a><a href="/index-en.html">EN</a><a href="/index-ru.html">RU</a></div>
+    </div>
+  </header>
+
+  <main>
+    <header class="page-header">
+      <div class="container">
+        <h1>Silifke Dalış Merkezi</h1>
+        <p>5 yıldır eğitim, deneme dalışları ve yurtdışı turlarıyla yanınızdayız.</p>
+      </div>
+    </header>
+
+    <section class="thumbs section">
+      <div class="container thumbs-grid">
+        <figure class="thumb">
+          <img src="/images/resif.jpg" alt="Resif" loading="lazy">
+          <figcaption>Resif</figcaption>
+        </figure>
+        <figure class="thumb">
+          <img src="/images/kaplumbaga.jpg" alt="Kaplumbağa" loading="lazy">
+          <figcaption>Kaplumbağa</figcaption>
+        </figure>
+        <figure class="thumb">
+          <img src="/images/hero.jpg" alt="Mavi Yolculuk" loading="lazy">
+          <figcaption>Mavi Yolculuk</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>İletişim</h2>
+        <form id="waForm" class="contact-form">
+          <label>Ad Soyad
+            <input type="text" id="name" placeholder="Ad Soyad" required>
+          </label>
+          <label>Telefon
+            <input type="tel" id="phone" placeholder="05XX XXX XX XX" inputmode="numeric" required>
+          </label>
+          <label>Mesaj
+            <textarea id="message" placeholder="Mesaj"></textarea>
+          </label>
+          <button type="submit" class="btn btn-wa">WhatsApp’tan Gönder</button>
+          <small class="form-note">WhatsApp açılacaktır.</small>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Telefon/WhatsApp:</strong> <a id="sitePhoneLink" href="#">—</a></p>
+          <p><strong>E-posta:</strong> <a id="siteEmailLink" href="#">—</a></p>
+          <p><strong>Adres:</strong> <span id="siteAddress">—</span></p>
+          <ul class="social">
+            <li><a id="smInstagram" href="#" target="_blank">Instagram</a></li>
+            <li><a id="smFacebook" href="#" target="_blank">Facebook</a></li>
+            <li><a id="smYouTube" href="#" target="_blank">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© Silifke Dalış Merkezi</div>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
